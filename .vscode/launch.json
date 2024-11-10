@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-MyFirstProjectApplication<myFirstProject>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.edigest.myFirstProject.MyFirstProjectApplication",
+      "projectName": "myFirstProject",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
