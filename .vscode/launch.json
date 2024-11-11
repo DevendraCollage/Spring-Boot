@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "JournalApplication",
+      "request": "launch",
+      "mainClass": "net.engineeringdigest.journalApp.JournalApplication",
+      "projectName": "journalApp"
+    },
+    {
+      "type": "java",
       "name": "Spring Boot-MyFirstProjectApplication<myFirstProject>",
       "request": "launch",
       "cwd": "${workspaceFolder}",
