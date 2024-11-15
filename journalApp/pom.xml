@@ -26,6 +26,12 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<!-- Dependency for to make connection with MongoDB datebase -->
+		<dependency>
+    		<groupId>org.springframework.boot</groupId>
+    		<artifactId>spring-boot-starter-data-mongodb</artifactId>
+    		<version>3.3.5</version>
+		</dependency>
 	</dependencies>
 
 	<build>
