@@ -32,6 +32,13 @@
     		<artifactId>spring-boot-starter-data-mongodb</artifactId>
     		<version>3.3.5</version>
 		</dependency>
+		<!-- Dependency to Generate Project getter, setter and noargs/args constructore but not displayed -->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.36</version>
+			<scope>provided</scope>
+		</dependency>
 	</dependencies>
 
 	<build>
