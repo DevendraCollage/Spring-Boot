@@ -32,4 +32,5 @@ public class User { // * This is POJO (Plain old java objects)
 
     @DBRef
     private List<JournalEntry> journalEntries = new ArrayList<>();
+    private List<String> roles;
 }
